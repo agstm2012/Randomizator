@@ -61,11 +61,11 @@ public class TextRandomizatorNode {
     }
 
     public TextRandomizatorNode concat(String str) {
-        if(isSeparator) {
+        if (isSeparator) {
             separator += str;
             return this;
         }
-        if(type.equals("string")) {
+        if (type.equals("string")) {
             this.str += str;
             return this;
         }
